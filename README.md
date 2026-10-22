@@ -1,4 +1,4 @@
-# Kioku (YT Lecture RAG) 🎯
+# Kioku (YT Lecture RAG) 
 
 > **Timestamp-level Retrieval-Augmented Generation over YouTube Data Structures & Algorithms (DSA) Lectures.**  
 > Ask technical questions in Hinglish or English and get accurate, grounded answers paired with **direct, clickable links that jump to the exact second in the lecture video**.
@@ -21,13 +21,13 @@ Unlike traditional RAG systems that only return raw text snippets, **Kioku retur
 
 - 🎯 **Timestamp-Accurate Video Citations**: Leverages time-aligned transcript segmentation so you jump straight to the relevant explanation.
 - 🇮🇳 **Bilingual Hinglish/English Understanding**: Handles code-switched Hindi-English queries and technical jargon seamlessly.
-- 🛡️ **Three-Layer Grounding Guardrails**:
+-  **Three-Layer Grounding Guardrails**:
   1. **Strict Distance Thresholding**: Unrelated queries are dropped before reaching any LLM.
   2. **Model Semantic Refusal**: Instructed to declare *"Ye topic in lectures me cover nahi hua"* when context is insufficient.
   3. **Zero-Citation Filter**: Answers without grounded timestamp citations are stripped of links to prevent hallucinations.
-- ⚡ **Zero-Compute Fast Search Mode**: A pure vector-search endpoint (`/search`) providing instant timestamps without consuming LLM quotas.
-- 📦 **Battery-Included Bundled Corpus**: Ships with **126 lecture transcripts** and pre-computed vectors (`index/vectors.npz`), enabling instant startup with no GPU required.
-- 🖥️ **Interactive Web Interface**: Single-page dark mode UI with embedded YouTube IFrame API supporting in-page playback and instant seeking.
+-  **Zero-Compute Fast Search Mode**: A pure vector-search endpoint (`/search`) providing instant timestamps without consuming LLM quotas.
+-  **Battery-Included Bundled Corpus**: Ships with **126 lecture transcripts** and pre-computed vectors (`index/vectors.npz`), enabling instant startup with no GPU required.
+-  **Interactive Web Interface**: Single-page dark mode UI with embedded YouTube IFrame API supporting in-page playback and instant seeking.
 
 ---
 
