@@ -19,7 +19,7 @@ Unlike traditional RAG systems that only return raw text snippets, **Kioku retur
 
 ## Key Features
 
-- 🎯 **Timestamp-Accurate Video Citations**: Leverages time-aligned transcript segmentation so you jump straight to the relevant explanation.
+-  **Timestamp-Accurate Video Citations**: Leverages time-aligned transcript segmentation so you jump straight to the relevant explanation.
 - 🇮🇳 **Bilingual Hinglish/English Understanding**: Handles code-switched Hindi-English queries and technical jargon seamlessly.
 -  **Three-Layer Grounding Guardrails**:
   1. **Strict Distance Thresholding**: Unrelated queries are dropped before reaching any LLM.
